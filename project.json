@@ -1,0 +1,33 @@
+{
+  "publisher": "qub",
+  "project": "qub-install",
+  "version": "1",
+  "java": {
+    "mainClass": "qub.Install",
+    "shortcutName": "qub-install",
+    "version": "1.8",
+    "sources": {
+      "version": "1.8"
+    },
+    "tests": {
+      "version": "1.8"
+    },
+    "dependencies": [
+      {
+        "publisher": "qub",
+        "project": "qub-test",
+        "version": "7"
+      },
+      {
+        "publisher": "qub",
+        "project": "qub-build",
+        "version": "47"
+      },
+      {
+        "publisher": "qub",
+        "project": "qub-java",
+        "version": "47"
+      }
+    ]
+  }
+}
